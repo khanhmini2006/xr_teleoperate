@@ -215,7 +215,7 @@ build  cert.pem  key.pem  LICENSE  pyproject.toml  README.md  rootCA.key  rootCA
 |    ⚙️ Parameter    |                        📜 Description                         |                     🔘 Available Options                      |     📌 Default     |
 | :---------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------: |
 |   `--frequency`   |            Set the FPS for recording and control             |                  Any reasonable float value                  |       30.0        |
-|  `--input-mode`   |       Choose XR input mode (how to control the robot)        | `hand` (hand tracking)`controller` (controller tracking) |      `hand`       |
+| `--input-mode` / `--xr-mode` |       Choose XR input mode (how to control the robot)        | `hand` (hand tracking)`controller` (controller tracking) |      `hand`       |
 | `--display-mode`  |  Choose XR display mode (how to view the robot perspective)  | `immersive` (immersive)`ego` (pass-through + small first-person window)`pass-through` (pass-through only) |    `immersive`    |
 |      `--arm`      |      Select the robot arm type (see 0. 📖 Introduction)       |                   `G1_29` `G1_23` `H1_2` `H1`                   |      `G1_29`      |
 |      `--ee`       | Select the end-effector type of the arm (see 0. 📖 Introduction) |       `dex1` `dex3` `inspire_ftp` `inspire_dfx` `brainco`        |       None        |
